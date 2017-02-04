@@ -1,0 +1,20 @@
+WEB303 Assignment 3
+Chapter 8: AJAX and JSON
+
+In this assignment we will use Ajax to fetch a JSON format file and insert the content into the page.
+
+Note: Either upload your files to the scweb.ca server or use Firefox. Chrome and Safari have problems loading Ajax from the filesystem.
+
+1. Use the .getJSON() method to get the team.json file.
+2. Use the $.each() method to loop through the elements of the array in the object.
+3. For each object insert the name, title, and bio into the div#team. Put the name in an h3, the title in an h4, and the bio in a p.
+
+Make a copy of your As03 folder called Aso3b.
+
+4. Modify your code to use the .ajax() method using the HTTP "get" type.
+5. Add a callback that runs before the Ajax call is made. Display the text "Loading..." in the div#team.
+6. Add an error callback to display an alert with the error message.
+7. Set a timeout of 5 seconds.
+8. Display the data in the same way as above. Make sure you remove the "Loading..." message.
+
+Upload this final script.js file to Blackboard.

@@ -1,0 +1,13 @@
+$('#exchangerates').append('<div id="rates"></div><div id="reload"></div>');
+
+function loadRates() {
+  $.getJSON('data/rates.json').done( function(data){                                 // SERVER RETURNS DATA
+
+    var msg = '<h2>Exchange Rates</h2>'; 
+    $.each(data, function(key, val) {
+      msg += '<div class="' + key + '">' + key + ': ' + val + '</div>';
+    });
+
+}
+
+loadRates();  

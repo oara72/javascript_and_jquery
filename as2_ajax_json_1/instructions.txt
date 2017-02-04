@@ -1,0 +1,8 @@
+WEB303 Assignment 2
+Chapter 8: AJAX and JSON
+
+Use jQuery to bring in content from the solutions.html file. 
+When the user clicks on one of the links, the correct content 
+will be inserted into the #solution div. 
+
+Hint: Use the jQuery .load() method to do the AJAX.
