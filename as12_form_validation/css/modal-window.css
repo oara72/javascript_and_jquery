@@ -1,0 +1,12 @@
+.modal {
+	position: absolute;
+	z-index:1000;
+}
+
+#message {
+
+		-webkit-box-shadow: 5px 5px 15px #000000;
+		-moz-box-shadow: 5px 5px 15px #000000;
+		box-shadow: 5px 5px 15px #000000;
+	
+}

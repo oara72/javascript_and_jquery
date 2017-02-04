@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Assignment No. 12</title>
+
+<!--<link href="css/style.css" rel="stylesheet" type="text/css"/>-->
+<link rel="stylesheet" href="css/c13.css" />
+<link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.10.3.custom.min.css" />
+<link href="css/modal-window.css" rel="stylesheet" type="text/css"/>
+
+<link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+	
+<div> <!-- div container -->
+	
+	<div id="PageWrapper">
+			<header>	
+			<img src="img/header.png" alt="header" height="150" width="979">
+			 
+			 
+			     <div id="share">
+					<a><img src="img/login.png" width="100" height="35" alt="login" /></a>
+				  </div>
+				  
+				
+			</header>
+
+		<div id="MainContent">	<!-- start main content -->
+		
+		<!-- Form -->
+      <form id="register" name="register" action="someURL" method="post"> <!--novalidate--> 
+ 
+     
+        <fieldset style="padding:10px 5px 15px 20px;">
+		<legend> Profile </legend>
+          <div class="name">
+            <label for="name" class="required">Name:</label>
+            <input type="text" placeholder="Enter your name" name="name" id="name" required title="Please enter your name">
+          </div>
+          <div class="email">
+            <label for="email" class="required">Email:</label>
+            <input type="email" placeholder="you@example.com" name="email" id="email" required>
+          </div>
+          <div class="birthday">
+            <label for="birthday" class="required">Birthday:</label>
+            <input type="date" name="birthday" id="birthday" placeholder="yyyy-mm-dd" required>
+            
+			<div id="consent-container" class="hide">
+              <label for="parents-consent">You need a parent's permission to join.
+                Tick here if your child can join:</label>
+              <input type="checkbox" name="parents-consent" id="parents-consent">
+            </div>
+          
+		  </div>
+
+
+         <fieldset>
+            <legend>Favourite Classes </legend>
+            <label><input type="checkbox" value="all" id="all">All</label>
+            <label><input type="checkbox" name="genre" value="javascript">Javascript</label>
+            <label><input type="checkbox" name="genre" value="aspnet">ASP.NET</label>
+            <label><input type="checkbox" name="genre" value="php">PHP</label>
+            <label><input type="checkbox" name="genre" value="richmedia">Rich Media</label>
+            <label><input type="checkbox" name="genre" value="rock">Rock's History</label>
+			
+		    <div id="required-checkbox" class="hide">
+              <label for="required-checkbox-info">choose at less one option</label>
+              <input type="checkbox" name="required-checkbox-info" id="required-checkbox-info">
+            </div>
+			
+          </fieldset>
+		  
+          <fieldset>
+            <legend>How did you hear of us?</legend>
+
+		<label><input type="radio" name="heard" id="interesting" value="interesting"></input>The topics are interesting</label>
+		<br/>
+		<label><input type="radio" name="heard" id="cool" value="cool"></input>The teacher is cool</label>
+		<br/>
+		<label><input type="radio" name="heard" id="easy" value="easy"></input>The subject is easy</label>
+		<br/>
+		<label><input type="radio" name="heard" id="noreason" value="noreason"></input>For no particular reason</label>
+		<br/>
+
+            <input type="radio" name="heard" id="other" value="other" />
+            <label for="other">Other</label><br>
+            <input type="text" name="other-input" id="other-text" value="" />
+ 
+          </fieldset>
+		
+		  <fieldset>
+			<label class="titles"><br/>
+			<select id="how_much">
+				<option>How much do you like them?</option>
+			</select>
+			</label>
+			<br/><br/>
+
+          </fieldset>
+		  
+			<div class="bio">
+            <label for="bio">Description about the class (max 140 characters):</label>
+            <textarea name="bio" id="bio" rows="5" cols="30"></textarea>
+            <span id="bio-count" class="hide">140</span>
+			</div>
+			
+		  
+        </fieldset>
+          <div>
+			<input type="submit" value="Login">
+		  </div>	
+		</form>
+
+		<!-- End Form -->
+	</div> <!-- end PageWrapper-->
+	
+	<div id="share-options">
+
+		<form style="background-color: grey">  
+		  <fieldset style="padding:10px 5px 15px 20px;">
+            <legend>Login</legend>
+          <div class="name">
+            <label for="name" class="required">Name:</label>
+            <input type="text" placeholder="Enter your name" name="name" id="name" required title="Please enter your name">
+          </div>
+		  <div class="password">
+            <label for="password" class="required">Password:</label>
+            <input type="password" name="password" id="password" required>
+			<input type="checkbox" id="showPwd">
+            <label for="showPwd">show password</label>
+          </div>
+            <input type="submit" value="Login" />
+          </fieldset>
+		</form>
+
+    </div>
+	
+</div> <!-- end div container -->
+<div id="footer"></div>
+<!-- script collection -->
+
+
+
+  <script src="js/jquery-1.9.1.js"></script>
+  <script src="js/jquery-ui-1.10.3.custom.js"></script>
+  <script src="js/utilities.js"></script>
+  <script src="js/placeholder-polyfill.js"></script>
+  <script src="js/password-signup.js"></script>    
+  
+  <!-- fecha de cumpleaños -->
+  <script src="js/birthday.js"></script>
+    <script src="js/validation.js"></script>  
+     
+  <!-- checkboxes and radio button -->
+    <script src="js/all-checkboxes.js"></script>
+    <script src="js/show-option.js"></script>
+
+  <!-- Select List -->
+  <script src="js/populate-selectbox.js"></script>
+
+  <!-- Text area y submit -->
+
+  <script src="js/bio.js"></script>
+    <!-- Hide or show password -->
+
+    <script src="js/input-type.js"></script>
+	<!-- Text field - name and last names in one field -->
+
+
+
+    <!-- script modal -->	
+	    <script src="js/modal-window.js"></script>
+    <script src="js/modal-init-plugin.js"></script>
+	<script>
+	$('#share').modal();
+	</script>
+
+	
+</body>
+</html>
