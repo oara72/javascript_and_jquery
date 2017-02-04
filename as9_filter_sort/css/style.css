@@ -1,0 +1,85 @@
+@import url(http://fonts.googleapis.com/css?family=Karla:400,700);
+
+body {
+	margin: 0px auto;
+	padding: 0px;
+	background-color: #f1f1f1;
+	font-family: 'Karla', sans-serif;
+    color: #333;
+
+  background: url(../img/villains.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  	min-width: 400px;
+	max-width: 1080px;     
+    }
+    
+
+/* Header */
+header {
+	margin: 0px 0px 40px 0px;
+	padding: 10px 0px 0px 0px;
+	min-height: 50px;
+	text-align: center;}
+
+
+#mainContent {
+	width: 960px;
+	margin-left: 175px;
+}
+/* Filter and search options */
+#table-villains {
+	width: 370px;
+	margin: 10px auto 30px auto;
+	text-align: center;
+	font-weight: bold;}
+#value-min, #value-max {width: 100px;}
+#slider {margin: 30px 0px 30px 0px;}
+
+
+/* Table styles */
+table {
+	margin: 0px auto;
+	width: 100%;
+	}
+
+img {
+	width: 125px;
+}
+th{
+	border-radius: 3px;
+	color: #333;
+	padding: 7px 10px 5px 10px;
+	min-width: 10em;
+	text-align: left;}
+th {
+	background-color: #d7d7d7;
+	font-weight: bold;
+	text-transform: uppercase;}
+td {
+	vertical-align:top;
+	padding-top: 20px;
+	text-align: left;
+	background-color: #fff;}
+
+
+/* footer */	
+#footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+ }
+
+#footer p {
+  font-family: 'Arimo', sans-serif;
+  font-size: 0.7em;
+  color: gray;
+  font-weight: bold;
+  text-align: right;
+  padding: 10px;
+  margin: 0px;
+ }
+
