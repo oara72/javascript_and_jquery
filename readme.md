@@ -1,1 +1,1 @@
-# functions, methods & objects
+# functions, methods & objects.
