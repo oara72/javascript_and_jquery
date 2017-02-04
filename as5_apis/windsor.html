@@ -1,0 +1,61 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <title>JavaScript II - Assignment # 5</title>
+    <link rel="stylesheet" href="css/c09.css" />
+    <link rel="stylesheet" href="css/pepper-grinder/jquery-ui-1.10.3.custom.min.css" />
+
+  </head>
+  <body> 
+    <header><h1>TOP THINGS TO DO IN WINDSOR</h1></header>
+    <h2>Most Viewed Things To Do In Windsor</h2>
+    <div class="third img"><img src="img/webwaterfrontsculpture.jpg" alt="landmark" /></div>
+    <div class="two-thirds">
+      <div id="places">
+        <h3>Riverside</h3>
+        <div>
+          <p>The waterfront is a great place to walk. The city has done a marvelous job of levelling, installing plenty of walkways, interesting monuments and superb gardens. Restaurants are above on Riverside and there is usually a nice breeze along 
+          the water.</p>
+          	<table>
+					<tr>
+						<td><img src="img/river.jpg" alt="river" /></td>
+						<td id="riverside"></td>
+					</tr>
+		  		</table>
+			</div>
+        <h3>Sandpoint Beach</h3>
+        	<div>
+          <p>Well maintained beach, summer lifeguards on duty occassionally beach closed due to poor quality water. Ringed swimming as 
+          strong deep water beyond markers. Change room with washrooms on site. Volley ball sand pits. No food take out area..</p>
+          	<table>
+					<tr>
+						<td><img src="img/spbeach.jpg" alt="spbeach" /></td>
+						<td id="sandpoint"></td>
+					</tr>
+		  		</table>
+			</div>
+        <h3>Jackson Park</h3>
+        <div>
+          <p>This by far is my favourite park in the city of Windsor. The flower beds are always so nice, it is well groomed. The 
+          stone walkways, the spitfire plane the rolling lawns..</p>
+				<table>
+					<tr>
+						<td><img src="img/jpark.jpg" alt="jpark" /></td>
+						<td id="jackson"></td>
+					</tr>
+		  		</table>
+			</div>
+      </div><!-- #places -->
+    </div><!-- #two-thirds -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+	<script src="js/googleMap.js"></script>
+	 <!--<script src="https://maps.googleapis.com/maps/api/js"></script> -->
+    <script>
+        $(function() {
+          $('#places').accordion();
+		  
+        });
+    </script>
+  </body>
+</html>

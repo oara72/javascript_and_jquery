@@ -1,0 +1,16 @@
+WEB303 Assignment 4
+Chapter 8: APIs
+
+In this assignment we will use JavaScript location and web storage APIs.
+
+Note: If you have problems, upload your files to the php.scweb.ca server. Web storage is dependant on the domain, 
+	it might not work properly from the local filesystem.
+
+1. Use geolocation to find the current location and display it on the page.
+2. Store the current location values in localstorage.
+3. Compare the new value with the old value and display a message to show how far the person has moved.
+	(function provided to calculate the distance between two lat/long pairs.)
+4. Display a welcome message if the person is visiting for the first time (no location stored). Display a different message if localstorage is not available.
+5. Display a suitable message if geolocation is not available.
+
+Upload this final script.js file to Blackboard.

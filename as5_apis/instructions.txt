@@ -1,0 +1,20 @@
+Assignment 5
+
+Chapter 9B: APIs
+
+Create a web page to showcase at least three attractions in a city or town
+of your choice. You can use text and photos from Wikipedia or other sources
+that allow reuse. Be sure to cite your sources.
+
+    Start from scratch, creating your own files. There are no starting files.
+    The page will incude the name of the town and a paragraph or two about it.
+    Use a jQuery UI accordion or Tabs to contain each attraction.
+    For each attraction include at least a photo, a paragraph, and a Google map (using the Map API) showing the location.
+    Hint: be sure to give your map container element a width and height. Otherwise, you won't see it!
+    Hint: you will have problems with a map inside an accordion or tabs. You will have to listen for an event and then refresh the map.
+
+Due:
+Sec 1: Tuesday, Oct 13 Friday, Oct 16 (if you want to re-submit, let me know and I will delete your previous submission)
+Sec 2: Wednesday, Oct 14
+
+Marking: Submit a zip file containing a folder of your files. Name the folder with your name. Files are due before the start of class. Assignments will be marked in person during class. This assignment is out of 10, 6 for the technical and 4 for design. So, put a little effort into it. Do not use a template.
