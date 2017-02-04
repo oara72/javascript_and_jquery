@@ -1,0 +1,131 @@
+
+* {  
+	margin:0 auto; 
+	padding:0;
+	text-decoration: none;
+}
+
+body {
+  background: url(../img/tweed.png); 
+}
+
+#PageWrapper { 
+	min-width: 400px;
+	max-width: 960px; 
+}
+
+#MainContent
+{
+  /*
+    Defines the main content area. The #MainContent element has a minimum height of 500 pixels, but can grow if necessary.
+    The font-size is 80% of its parent element, which in this case comes down to 80% of the font
+    the user has specified as the default font in the browser.
+  */
+  font-size: 14px;
+  width: 960px;
+  border-left: 1px solid white;
+  float: left;
+  min-height: 500px;
+  padding: 10px;
+}
+
+
+#MainContent p {
+	font-family: 'Arimo', sans-serif;
+	text-align: justify;
+	font-size: 0.9em;
+	color: dimgrey;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#MainContent h3 {
+	font-family: 'Oswald', sans-serif;
+	color: grey;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+ }
+
+#footer p {
+  font-family: 'Arimo', sans-serif;
+  font-size: 0.7em;
+  color: #fff;
+  font-weight: bold;
+  text-align: right;
+  padding: 10px;
+  margin: 0px;
+ }
+ 
+
+ p > img {
+	background-origin: padding-box ;
+	background-size: 230px 270px; 
+ }
+
+  
+  /* Form styles */
+
+form {
+  padding: 0px 60px 65px 60px;}
+  
+legend {
+  font-family: 'Oswald', 'Futura', sans-serif;
+  font-size: 18px;	
+    color: #fff;
+}
+
+label {
+  color: #fff;
+  display: block;
+  margin: 10px 0px 10px 0px;
+  font-family: 'Oswald', 'Futura', sans-serif;
+  font-size: 12px;
+  }
+
+input[type='text'], input[type='password'], textarea {
+  background-color: #999;
+  color: #666;
+  font-family: 'Oswald', 'Futura', sans-serif;
+  font-size: 12px;
+  width: 96%;
+  padding: 4px 6px;
+  border: 1px solid #999;
+  border-radius: 8px;}
+
+input[type='text']:focus, input[type='password']:focus, textarea:focus {
+  border: 1px solid #fff;
+  background-color: #fff;
+  outline: none;}
+
+input[type='submit'], a.add {
+  background-color: #cb6868;
+  color: #f3dad1;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 10px;
+  margin-top: 10px;
+  float: right;
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: uppercase;}
+
+input[type='submit']:hover, a.add:hover {
+  background-color: #d75359;
+  color: #f3dad1;
+  cursor: pointer;
+  box-shadow: none;
+  position: relative;
+  top: 1px;}
+
+textarea {
+  width: 96%;
+  height: 5em;
+  line-height: 1.4em;}
+
+select, option {
+  font-size: 16px;}
